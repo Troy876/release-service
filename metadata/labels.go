@@ -64,4 +64,6 @@ var (
 
 	// ReleaseNamespaceLabel is the label used to specify the namespace of the Release associated with the PipelineRun
 	ReleaseNamespaceLabel = fmt.Sprintf("%s/%s", releaseLabelPrefix, "namespace")
+
+	ReleaseSnapshotLabel = fmt.Sprintf("%s/%s", rhtapDomain, "snapshot")
 )
